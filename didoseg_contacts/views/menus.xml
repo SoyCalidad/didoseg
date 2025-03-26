@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="my_profile_menu_config"
+        name="My Profile"
+        parent="contacts.res_partner_menu_config"
+        sequence="10"/>
+
+    <menuitem
+        id="res_partner_profession_menu_action"
+        name="Professions"
+        parent="my_profile_menu_config"
+        action="res_partner_profession_action"
+        sequence="1"/>
+
+    <menuitem
+        id="res_partner_faculty_menu_action"
+        name="Faculties"
+        parent="my_profile_menu_config"
+        action="res_partner_faculty_action"
+        sequence="2"/>
+
+    <menuitem
+        id="res_partner_employment_status_menu_action"
+        name="Employment Status"
+        parent="my_profile_menu_config"
+        action="res_partner_employment_status_action"
+        sequence="3"/>
+</odoo>

@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_partner_profession_user,res.partner.profession user,model_res_partner_profession,base.group_user,1,1,1,0
+access_res_partner_profession_manager,res.partner.profession manager,model_res_partner_profession,base.group_system,1,1,1,1
+
+access_res_partner_faculty_user,res.partner.faculty user,model_res_partner_faculty,base.group_user,1,1,1,0
+access_res_partner_faculty_manager,res.partner.faculty manager,model_res_partner_faculty,base.group_system,1,1,1,1
+
+access_res_partner_occupation_user,res.partner.occupation user,model_res_partner_occupation,base.group_user,1,1,1,0
+access_res_partner_occupation_manager,res.partner.occupation manager,model_res_partner_occupation,base.group_system,1,1,1,1
+
+access_res_partner_employment_status_user,res.partner.employment_status user,model_res_partner_employment_status,base.group_user,1,1,1,0
+access_res_partner_employment_status_manager,res.partner.employment_status manager,model_res_partner_employment_status,base.group_system,1,1,1,1
+
+access_res_partner_work_experience_user,res.partner.work_experience user,model_res_partner_work_experience,base.group_user,1,1,1,0
+access_res_partner_work_experience_manager,res.partner.work_experience manager,model_res_partner_work_experience,base.group_system,1,1,1,1

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="name">res.partner.view.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="My Profile">
+                    <group>
+                        <group string="About Me">
+                            <field name="occupation_ids" nolabel="1"/>
+                            <field name="employment_status_id"/>
+                            <field name="description"/>
+                        </group>
+                        <group string="Contactus">
+                            <field name="email" widget="email"/>
+                            <field name="personal_email" widget="email"/>
+                            <field name="professional_email" widget="email"/>
+                            <field name="phone" widget="phone"/>
+                            <field name="social_twitter"/>
+                            <field name="social_facebook"/>
+                            <field name="social_github"/>
+                            <field name="social_linkedin"/>
+                            <field name="social_youtube"/>
+                            <field name="social_instagram"/>
+                            <field name="social_tiktok"/>
+                        </group>
+                    </group>
+                    <group string="Work Experience">
+                        <field name="work_experience_ids" nolabel="1"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="res_partner_occupation_view_list" model="ir.ui.view">
+        <field name="name">res.partner.occupation.view.list</field>
+        <field name="model">res.partner.occupation</field>
+        <field name="arch" type="xml">
+            <list string="Occupations">
+                <field name="partner_id" column_invisible="True"/>
+                <field name="profession_id"/>
+                <field name="faculty_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_occupation_view_form" model="ir.ui.view">
+        <field name="name">res.partner.occupation.view.form</field>
+        <field name="model">res.partner.occupation</field>
+        <field name="arch" type="xml">
+            <form string="Occupation">
+                <sheet>
+                    <group>
+                        <field name="partner_id" invisible="1"/>
+                        <field name="profession_id"/>
+                        <field name="faculty_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_occupation_action" model="ir.actions.act_window">
+        <field name="name">Occupations</field>
+        <field name="res_model">res.partner.occupation</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="res_partner_work_experience_view_list" model="ir.ui.view">
+        <field name="name">res.partner.work.experience.view.list</field>
+        <field name="model">res.partner.work_experience</field>
+        <field name="arch" type="xml">
+            <list string="Work Experience">
+                <field name="partner_id" column_invisible="True"/>
+                <field name="job_position"/>
+                <field name="company"/>
+                <field name="country_id"/>
+                <field name="state_id"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_work_experience_view_form" model="ir.ui.view">
+        <field name="name">res.partner.work.experience.view.form</field>
+        <field name="model">res.partner.work_experience</field>
+        <field name="arch" type="xml">
+            <form string="Work Experience">
+                <sheet>
+                    <group>
+                        <field name="partner_id" invisible="1"/>
+                        <field name="job_position"/>
+                        <field name="company"/>
+                        <field name="country_id"/>
+                        <field name="state_id"/>
+                        <field name="start_date"/>
+                        <field name="end_date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_work_experience_action" model="ir.actions.act_window">
+        <field name="name">Work Experience</field>
+        <field name="res_model">res.partner.work_experience</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="res_partner_profession_view_list" model="ir.ui.view">
+        <field name="name">res.partner.profession.view.list</field>
+        <field name="model">res.partner.profession</field>
+        <field name="arch" type="xml">
+            <list string="Professions">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_profession_view_form" model="ir.ui.view">
+        <field name="name">res.partner.profession.view.form</field>
+        <field name="model">res.partner.profession</field>
+        <field name="arch" type="xml">
+            <form string="Profession">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_profession_action" model="ir.actions.act_window">
+        <field name="name">Professions</field>
+        <field name="res_model">res.partner.profession</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="res_partner_faculty_view_list" model="ir.ui.view">
+        <field name="name">res.partner.faculty.view.list</field>
+        <field name="model">res.partner.faculty</field>
+        <field name="arch" type="xml">
+            <list string="Faculties">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_faculty_view_form" model="ir.ui.view">
+        <field name="name">res.partner.faculty.view.form</field>
+        <field name="model">res.partner.faculty</field>
+        <field name="arch" type="xml">
+            <form string="Faculty">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_faculty_action" model="ir.actions.act_window">
+        <field name="name">Faculties</field>
+        <field name="res_model">res.partner.faculty</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="res_partner_employment_status_view_list" model="ir.ui.view">
+        <field name="name">res.partner.employment_status.view.list</field>
+        <field name="model">res.partner.employment_status</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_employment_status_view_form" model="ir.ui.view">
+        <field name="name">res.partner.employment_status.view.form</field>
+        <field name="model">res.partner.employment_status</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_employment_status_action" model="ir.actions.act_window">
+        <field name="name">Employment Status</field>
+        <field name="res_model">res.partner.employment_status</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

@@ -1,0 +1,260 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* didoseg_contacts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e-20250311\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 21:15+0000\n"
+"PO-Revision-Date: 2025-03-26 21:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: didoseg_contacts
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
+msgid "About Me"
+msgstr "Sobre mí"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__company
+msgid "Company"
+msgstr "Compañía"
+
+#. module: didoseg_contacts
+#: model:ir.model,name:didoseg_contacts.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: didoseg_contacts
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
+msgid "Contactus"
+msgstr "Contactos"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__create_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__create_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__create_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__create_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__create_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__create_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__create_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__create_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__description
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__display_name
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__display_name
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__display_name
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__display_name
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_employment_status_action
+#: model:ir.model,name:didoseg_contacts.model_res_partner_employment_status
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__employment_status_id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__employment_status_id
+#: model:ir.ui.menu,name:didoseg_contacts.res_partner_employment_status_menu_action
+msgid "Employment Status"
+msgstr "Estado laboral"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__end_date
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_facebook
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_facebook
+msgid "Facebook Account"
+msgstr "Cuenta de Facebook"
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_faculty_action
+#: model:ir.ui.menu,name:didoseg_contacts.res_partner_faculty_menu_action
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_faculty_view_list
+msgid "Faculties"
+msgstr "Facultades"
+
+#. module: didoseg_contacts
+#: model:ir.model,name:didoseg_contacts.model_res_partner_faculty
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__faculty_id
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_faculty_view_form
+msgid "Faculty"
+msgstr "Facultad"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_github
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_github
+msgid "GitHub Account"
+msgstr "Cuenta de GitHub"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__id
+msgid "ID"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_instagram
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_instagram
+msgid "Instagram Account"
+msgstr "Cuenta de Instagram"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__job_position
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__write_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__write_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__write_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__write_uid
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__write_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__write_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__write_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__write_date
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_linkedin
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_linkedin
+msgid "LinkedIn Account"
+msgstr "Cuenta de LinkedIn"
+
+#. module: didoseg_contacts
+#: model:ir.ui.menu,name:didoseg_contacts.my_profile_menu_config
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__name
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: didoseg_contacts
+#: model:ir.model,name:didoseg_contacts.model_res_partner_occupation
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__occupation_ids
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__occupation_ids
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_occupation_view_form
+msgid "Occupation"
+msgstr "Ocupación"
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_occupation_action
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_occupation_view_list
+msgid "Occupations"
+msgstr "Ocupación"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__partner_id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__partner_id
+msgid "Partner"
+msgstr "Contacto"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__personal_email
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__personal_email
+msgid "Personal Email"
+msgstr "Correo electrónico personal"
+
+#. module: didoseg_contacts
+#: model:ir.model,name:didoseg_contacts.model_res_partner_profession
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__profession_id
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_profession_view_form
+msgid "Profession"
+msgstr "Profesión"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__professional_email
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__professional_email
+msgid "Professional Email"
+msgstr "Correo electrónico profesional"
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_profession_action
+#: model:ir.ui.menu,name:didoseg_contacts.res_partner_profession_menu_action
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_profession_view_list
+msgid "Professions"
+msgstr "Profesiones"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__state_id
+msgid "State"
+msgstr "Provincia"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__name
+msgid "Status"
+msgstr "Estado"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_tiktok
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_tiktok
+msgid "TikTok Account"
+msgstr "Cuenta de TikTok"
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_work_experience_action
+#: model:ir.model,name:didoseg_contacts.model_res_partner_work_experience
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__work_experience_ids
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__work_experience_ids
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_work_experience_view_form
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.res_partner_work_experience_view_list
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
+msgid "Work Experience"
+msgstr "Experiencia laboral"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_twitter
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_twitter
+msgid "X Account"
+msgstr "Cuenta de X"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__social_youtube
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__social_youtube
+msgid "Youtube Account"
+msgstr "Cuenta de Youtube"
