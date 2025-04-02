@@ -13,3 +13,6 @@ access_res_partner_employment_status_manager,res.partner.employment_status manag
 
 access_res_partner_work_experience_user,res.partner.work_experience user,model_res_partner_work_experience,base.group_user,1,1,1,0
 access_res_partner_work_experience_manager,res.partner.work_experience manager,model_res_partner_work_experience,base.group_system,1,1,1,1
+
+access_res_partner_class_year_user,res.partner.class_year user,model_res_partner_class_year,base.group_user,1,1,1,0
+access_res_partner_class_year_manager,res.partner.class_year manager,model_res_partner_class_year,base.group_system,1,1,1,1

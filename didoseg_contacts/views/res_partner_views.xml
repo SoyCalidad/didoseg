@@ -12,6 +12,7 @@
                             <field name="occupation_ids" nolabel="1"/>
                             <field name="employment_status_id"/>
                             <field name="description"/>
+                            <field name="class_year_id"/>
                         </group>
                         <group string="Contactus">
                             <field name="email" widget="email"/>
@@ -115,7 +116,7 @@
         <field name="name">res.partner.profession.view.list</field>
         <field name="model">res.partner.profession</field>
         <field name="arch" type="xml">
-            <list string="Professions">
+            <list string="Professions" editable="bottom">
                 <field name="name"/>
             </list>
         </field>
@@ -145,7 +146,7 @@
         <field name="name">res.partner.faculty.view.list</field>
         <field name="model">res.partner.faculty</field>
         <field name="arch" type="xml">
-            <list string="Faculties">
+            <list string="Faculties" editable="bottom">
                 <field name="name"/>
             </list>
         </field>
@@ -175,7 +176,7 @@
         <field name="name">res.partner.employment_status.view.list</field>
         <field name="model">res.partner.employment_status</field>
         <field name="arch" type="xml">
-            <list>
+            <list editable="bottom">
                 <field name="name"/>
             </list>
         </field>
@@ -198,6 +199,36 @@
     <record id="res_partner_employment_status_action" model="ir.actions.act_window">
         <field name="name">Employment Status</field>
         <field name="res_model">res.partner.employment_status</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="res_partner_class_year_view_list" model="ir.ui.view">
+        <field name="name">res.partner.class_year.view.list</field>
+        <field name="model">res.partner.class_year</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="res_partner_class_year_view_form" model="ir.ui.view">
+        <field name="name">res.partner.class_year.view.form</field>
+        <field name="model">res.partner.class_year</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="res_partner_class_year_action" model="ir.actions.act_window">
+        <field name="name">Class Years</field>
+        <field name="res_model">res.partner.class_year</field>
         <field name="view_mode">list,form</field>
     </record>
 </odoo>

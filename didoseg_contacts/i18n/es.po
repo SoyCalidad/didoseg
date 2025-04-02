@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e-20250311\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 21:15+0000\n"
-"PO-Revision-Date: 2025-03-26 21:15+0000\n"
+"POT-Creation-Date: 2025-04-02 14:47+0000\n"
+"PO-Revision-Date: 2025-04-02 14:47+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
 msgid "About Me"
 msgstr "Sobre mí"
+
+#. module: didoseg_contacts
+#: model:ir.model,name:didoseg_contacts.model_res_partner_class_year
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__class_year_id
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__class_year_id
+msgid "Class Year"
+msgstr "Promoción"
+
+#. module: didoseg_contacts
+#: model:ir.actions.act_window,name:didoseg_contacts.res_partner_class_year_action
+#: model:ir.ui.menu,name:didoseg_contacts.res_partner_class_year_menu_action
+msgid "Class Years"
+msgstr "Promociones"
 
 #. module: didoseg_contacts
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__company
@@ -33,7 +46,7 @@ msgstr "Contacto"
 #. module: didoseg_contacts
 #: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
 msgid "Contactus"
-msgstr "Contactos"
+msgstr "Contacto"
 
 #. module: didoseg_contacts
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__country_id
@@ -41,6 +54,7 @@ msgid "Country"
 msgstr "País"
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__create_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__create_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__create_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__create_uid
@@ -50,6 +64,7 @@ msgid "Created by"
 msgstr ""
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__create_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__create_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__create_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__create_date
@@ -65,6 +80,7 @@ msgid "Description"
 msgstr "Descripción"
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__display_name
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__display_name
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__display_name
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__display_name
@@ -114,6 +130,7 @@ msgid "GitHub Account"
 msgstr "Cuenta de GitHub"
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__id
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__id
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__id
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__id
@@ -134,6 +151,7 @@ msgid "Job Position"
 msgstr "Puesto de trabajo"
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__write_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__write_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__write_uid
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__write_uid
@@ -143,6 +161,7 @@ msgid "Last Updated by"
 msgstr ""
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__write_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_employment_status__write_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__write_date
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_occupation__write_date
@@ -164,6 +183,7 @@ msgid "My Profile"
 msgstr "Mi perfil"
 
 #. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_class_year__name
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_faculty__name
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_profession__name
 msgid "Name"

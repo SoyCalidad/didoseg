@@ -26,4 +26,11 @@
         parent="my_profile_menu_config"
         action="res_partner_employment_status_action"
         sequence="3"/>
+
+    <menuitem
+        id="res_partner_class_year_menu_action"
+        name="Class Years"
+        parent="my_profile_menu_config"
+        action="res_partner_class_year_action"
+        sequence="4"/>
 </odoo>

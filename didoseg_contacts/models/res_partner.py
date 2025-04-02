@@ -30,7 +30,14 @@ class EmploymentStatus(models.Model):
     _name = 'res.partner.employment_status'
     _description = 'Employment Status'
 
-    name = fields.Char(string="Status", required=True)
+    name = fields.Char(string="Status")
+
+
+class ClassYear(models.Model):
+    _name = 'res.partner.class_year'
+    _description = 'Class Year'
+
+    name = fields.Char('Name')
 
 
 class WorkExperience(models.Model):
@@ -62,6 +69,7 @@ class ResPartner(models.Model):
     occupation_ids = fields.One2many('res.partner.occupation', 'partner_id', string='Occupation')
     employment_status_id = fields.Many2one('res.partner.employment_status', string='Employment Status')
     description = fields.Text(string='Description')
+    class_year_id = fields.Many2one('res.partner.class_year', string='Class Year')
 
     personal_email = fields.Char(string='Personal Email')
     professional_email = fields.Char(string='Professional Email')
