@@ -27,6 +27,11 @@
                             <field name="social_instagram"/>
                             <field name="social_tiktok"/>
                         </group>
+                        <group>
+                        </group>
+                        <group string="Chat">
+                            <field name="allow_message_sending" widget="boolean_toggle"/>
+                        </group>
                     </group>
                     <group string="Work Experience">
                         <field name="work_experience_ids" nolabel="1"/>

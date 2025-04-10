@@ -2,7 +2,6 @@ from odoo import fields, models, api
 from odoo.exceptions import ValidationError
 
 
-
 class Profession(models.Model):
     _name = 'res.partner.profession'
     _description = 'Profession'
@@ -82,3 +81,8 @@ class ResPartner(models.Model):
     social_tiktok = fields.Char('TikTok Account')
 
     work_experience_ids = fields.One2many('res.partner.work_experience', 'partner_id', string='Work Experience')
+
+    allow_message_sending = fields.Boolean(
+        string="Allow Message Sending",
+        help="Enable this option if the contact agrees to receive messages."
+    )

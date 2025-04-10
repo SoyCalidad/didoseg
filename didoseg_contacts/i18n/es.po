@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e-20250311\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-02 14:47+0000\n"
-"PO-Revision-Date: 2025-04-02 14:47+0000\n"
+"POT-Creation-Date: 2025-04-10 17:34+0000\n"
+"PO-Revision-Date: 2025-04-10 17:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
 msgid "About Me"
 msgstr "Sobre mí"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner__allow_message_sending
+#: model:ir.model.fields,field_description:didoseg_contacts.field_res_users__allow_message_sending
+msgid "Allow Message Sending"
+msgstr "Permitir que me envíen mensajes"
+
+#. module: didoseg_contacts
+#: model_terms:ir.ui.view,arch_db:didoseg_contacts.view_partner_form
+msgid "Chat"
+msgstr "Chat"
 
 #. module: didoseg_contacts
 #: model:ir.model,name:didoseg_contacts.model_res_partner_class_year
@@ -97,6 +108,12 @@ msgstr ""
 #: model:ir.ui.menu,name:didoseg_contacts.res_partner_employment_status_menu_action
 msgid "Employment Status"
 msgstr "Estado laboral"
+
+#. module: didoseg_contacts
+#: model:ir.model.fields,help:didoseg_contacts.field_res_partner__allow_message_sending
+#: model:ir.model.fields,help:didoseg_contacts.field_res_users__allow_message_sending
+msgid "Enable this option if the contact agrees to receive messages."
+msgstr "Habilite esta opción si el contacto acepta recibir mensajes."
 
 #. module: didoseg_contacts
 #: model:ir.model.fields,field_description:didoseg_contacts.field_res_partner_work_experience__end_date
