@@ -1,0 +1,49 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* didoseg_hr_recruitment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e-20250311\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-10 17:38+0000\n"
+"PO-Revision-Date: 2025-04-10 17:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: didoseg_hr_recruitment
+#: model:ir.model.fields,field_description:didoseg_hr_recruitment.field_hr_job__is_job_position_closed
+msgid "Is Job Position Closed"
+msgstr "Postulación cerrada"
+
+#. module: didoseg_hr_recruitment
+#: model:ir.model,name:didoseg_hr_recruitment.model_hr_job
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: didoseg_hr_recruitment
+#: model_terms:ir.ui.view,arch_db:didoseg_hr_recruitment.index
+msgid "Not available"
+msgstr "No disponible"
+
+#. module: didoseg_hr_recruitment
+#: model:ir.model.fields,help:didoseg_hr_recruitment.field_hr_job__is_job_position_closed
+msgid ""
+"The position will remain visible on the website, but visitors will not be "
+"able to apply."
+msgstr ""
+"El puesto seguirá visible en el sitio web, pero los visitantes no podrán presentar su candidatura."
+
+#. module: didoseg_hr_recruitment
+#: model_terms:ir.ui.view,arch_db:didoseg_hr_recruitment.index
+msgid "open position"
+msgstr "puesto disponible"
+
+#. module: didoseg_hr_recruitment
+#: model_terms:ir.ui.view,arch_db:didoseg_hr_recruitment.index
+msgid "open positions"
+msgstr "puestos disponibles"
