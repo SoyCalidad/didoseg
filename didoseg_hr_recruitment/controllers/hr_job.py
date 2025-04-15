@@ -6,11 +6,13 @@ from werkzeug.exceptions import NotFound
 
 class WebsiteHrRecruitmentExtended(WebsiteHrRecruitment):
 
+    @http.route()
     def job(self, job, **kwargs):
         if job.is_job_position_closed:
             raise NotFound()
         return super().job(job, **kwargs)
 
+    @http.route()
     def jobs_apply(self, job, **kwargs):
         if job.is_job_position_closed:
             raise NotFound()
